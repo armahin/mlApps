@@ -50,5 +50,4 @@ port = int(os.environ.get('PORT', 8501))
 # Run the Streamlit app
 if __name__ == '__main__':
     st.port = port
-    st.run()
     main()
