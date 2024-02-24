@@ -3,6 +3,7 @@ import numpy as np
 import xgboost as xgb
 import pickle
 import math
+import os
 
 # Load the trained XGBoost model
 def load_model():
