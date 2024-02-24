@@ -1,1 +1,2 @@
-web:sh setup.sh && streamlit run inputshow.py
+web: sh setup.sh; streamlit run inputshow.py
+
