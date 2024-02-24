@@ -45,9 +45,10 @@ def main():
 
         median_index = np.argsort(predictions)[len(predictions)//2]  # Get index of median value
         st.write(f"<b>Cement, GGBS, Fly Ash, Sillica Fume, WB Ratio</b>: {inputs[median_index]}",unsafe_allow_html=True)
-port = int(os.environ.get('PORT', 8501))
+
 
 # Run the Streamlit app
 if __name__ == '__main__':
+    port = int(os.environ.get('PORT', 8501))
     st.port = port
     main()
