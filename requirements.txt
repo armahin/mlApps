@@ -3,4 +3,4 @@ pickle-mixin==1.0.2
 streamlit==1.31.1
 streamlit-option-menu==0.3.2
 scikit-learn==1.4.1.post1
-protobuf==3.16.6
+protobuf==3.19.6
